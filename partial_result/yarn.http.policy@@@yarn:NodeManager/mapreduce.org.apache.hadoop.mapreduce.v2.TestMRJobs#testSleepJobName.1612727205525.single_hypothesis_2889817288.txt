@@ -1,0 +1,117 @@
+my_type=hypothesis
+proj=mapreduce
+u_test=org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+v1v2 running time = 39761215358
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 34166827856
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 39853976280
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 37881895181
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 41815841021
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 32821637997
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 34834928031
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 33925632570
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 31502653991
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 33497707886
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 40198345607
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 31428787875
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 39291634504
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 33607852069
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 35916768705
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 24666066302
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 30488693638
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 30992096549
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 30408462473
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v1v1 running time = 33635365245
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobName
+v2v2 running time = 36868079915
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 727
+0

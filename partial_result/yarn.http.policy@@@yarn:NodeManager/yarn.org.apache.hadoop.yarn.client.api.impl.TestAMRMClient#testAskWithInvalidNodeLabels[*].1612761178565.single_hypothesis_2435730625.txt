@@ -1,0 +1,131 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 25593089892
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 26349561484
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 23647117819
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 23150327157
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 22903503562
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 21989968303
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 23492800181
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 24603719986
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 23797313627
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 20303931767
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 21534421291
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 22498416014
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 21162484741
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 22303046231
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 23195998680
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 22506799495
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 23384945791
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 22901826871
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 21078654629
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v1v1 running time = 20850770315
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAskWithInvalidNodeLabels
+v2v2 running time = 22779301291
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 480
+0

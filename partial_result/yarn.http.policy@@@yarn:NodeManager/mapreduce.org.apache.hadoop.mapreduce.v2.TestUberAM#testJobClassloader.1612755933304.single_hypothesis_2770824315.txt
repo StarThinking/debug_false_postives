@@ -1,0 +1,117 @@
+my_type=hypothesis
+proj=mapreduce
+u_test=org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+v1v2 running time = 18462369389
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 50015406886
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 53983143580
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 16425427191
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 49763120522
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 49237268097
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 17563625063
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 49579513514
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 53369152275
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 20486993275
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 50781148657
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 52219825916
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 22857676237
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 50829424029
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 52252247810
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 18652423677
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 51926498558
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 48324551670
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 20724348970
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v1v1 running time = 52590900875
+updating test result for file org.apache.hadoop.mapreduce.v2.TestUberAM#testJobClassloader
+v2v2 running time = 52842756900
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 852
+0

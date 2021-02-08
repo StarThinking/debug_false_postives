@@ -1,0 +1,117 @@
+my_type=hypothesis
+proj=mapreduce
+u_test=org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+v1v2 running time = 30742312226
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 32501785360
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 31247395248
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 34810479563
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 36924391257
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 41013625036
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 37602960727
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 39129918280
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 34892285760
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 30631934042
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 40804605272
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 31809018453
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 32708596997
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 33545333617
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 34663759168
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 35830893542
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 34078423164
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 30963410072
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 30203747494
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v1v1 running time = 31652744056
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalResourceNumberOverLimit
+v2v2 running time = 42131451598
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 727
+0

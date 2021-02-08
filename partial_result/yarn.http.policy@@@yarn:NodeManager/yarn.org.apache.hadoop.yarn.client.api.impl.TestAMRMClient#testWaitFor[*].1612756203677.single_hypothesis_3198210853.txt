@@ -1,0 +1,131 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 26681837036
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 27983426446
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 28344674946
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 25439335892
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 29468087009
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 32757495907
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 28737619732
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 29571057087
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 30903702826
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 24647353380
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 28659694213
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 29719653626
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 24872008812
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 29022079120
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 29614570718
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 27897032189
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 26421349609
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 28239452488
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 23939694558
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v1v1 running time = 28295868872
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testWaitFor
+v2v2 running time = 31109682410
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 592
+0

@@ -1,0 +1,131 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 32891095884
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 40527720744
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 38883598197
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 36093989004
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 39194404268
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 38359031188
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 34635198762
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 42730107345
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 42492195362
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 30778741108
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 39133189017
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 43700280435
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 36147551629
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 43469401000
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 38792431286
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 31783768927
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 41274539058
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 38865336602
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 35657722206
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v1v1 running time = 36854837087
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAllocationWithBlacklist
+v2v2 running time = 39516780062
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 805
+0
