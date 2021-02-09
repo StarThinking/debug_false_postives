@@ -1,0 +1,397 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list[1]=yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 19996662925
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 31371515770
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 23161837036
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 18738072639
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 27720006623
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 24396716397
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 22131614697
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 28852739394
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 24696660881
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 20039418835
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 26426744444
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 25998985240
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 22410418180
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 34736240744
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 28027049470
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 22607852280
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 35844453730
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 34470076227
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v2 running time = 28680384570
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+h_list: yarn.http.policy@@@yarn:ResourceManager@@@1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+stackTrace: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: Invalid configuration! yarn.resourcemanager.hostname.rm1 or yarn.resourcemanager.webapp.address.rm1 needs to be set in an HA configuration.
+	at org.apache.hadoop.yarn.conf.HAUtil.throwBadConfigurationException(HAUtil.java:45)
+	at org.apache.hadoop.yarn.conf.HAUtil.checkAndSetRMRPCAddress(HAUtil.java:342)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetRMHAIdsList(HAUtil.java:130)
+	at org.apache.hadoop.yarn.conf.HAUtil.verifyAndSetConfiguration(HAUtil.java:105)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceInit(ResourceManager.java:284)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.serviceInit(MockRM.java:1429)
+	at org.apache.hadoop.service.AbstractService.init(AbstractService.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:164)
+	at org.apache.hadoop.yarn.server.resourcemanager.MockRM.<init>(MockRM.java:147)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.startRM(TestLeaderElectorService.java:251)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService.testZKClusterDown(TestLeaderElectorService.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v1v1 running time = 29462713993
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestLeaderElectorService#testZKClusterDown
+v2v2 running time = 31608602628
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 561
+0

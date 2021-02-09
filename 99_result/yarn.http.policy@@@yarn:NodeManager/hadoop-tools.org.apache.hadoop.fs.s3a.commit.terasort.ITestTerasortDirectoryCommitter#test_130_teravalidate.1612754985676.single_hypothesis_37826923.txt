@@ -1,0 +1,131 @@
+my_type=hypothesis
+proj=hadoop-tools
+u_test=org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+v1v2 running time = 18586654064
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 19835576251
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 18749346014
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 19150265105
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 19804186813
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 19508866605
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 18737717750
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 20685921956
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 21318766182
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 18501701971
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 18845387577
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 21654357054
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 19588469519
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 15544057962
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 17452660990
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 19639564123
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 18488347910
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 17824612923
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 19714661479
+---> v1v2 test failed.
+proj: hadoop-tools
+u_test: org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v1v1 running time = 23078789508
+updating test result for file org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_130_teravalidate
+WARN: conflict exitCode = 0 but tr.result = FAIL
+v2v2 running time = 22147987196
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 408
+0

@@ -1,0 +1,341 @@
+my_type=hypothesis
+proj=mapreduce
+u_test=org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list[1]=mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 38033659156
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 37237755921
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 78138116075
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 36399059842
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 28219793479
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 83942947475
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 35394362577
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 36056647306
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 74535278276
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 28054747127
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 37131812306
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 68737215823
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 27380568108
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 30940488389
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 70338906727
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 30722891351
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 36428406331
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 72100476503
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v2 running time = 30366906560
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+h_list: mapreduce.output.fileoutputformat.compress@@@mapreduce:ReduceTaskRunnable@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+stackTrace: java.lang.Exception: cound not find file file:/root/hadoop-3.2.1-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/target/test-dir/kvtest/output/normal/LargeKV/org.apache.hadoop.io.Text/org.apache.hadoop.io.IntWritable/part-r-00000.deflate , as sourcepaths has such file
+	at org.apache.hadoop.mapred.nativetask.testutil.ResultVerifier.verify(ResultVerifier.java:77)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.runKVSizeTests(LargeKVTest.java:119)
+	at org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest.testKeySize(LargeKVTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v1v1 running time = 33354344148
+updating test result for file org.apache.hadoop.mapred.nativetask.kvtest.LargeKVTest#testKeySize
+v2v2 running time = 79235822017
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 992
+0

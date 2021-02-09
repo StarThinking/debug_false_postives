@@ -1,0 +1,117 @@
+my_type=hypothesis
+proj=mapreduce
+u_test=org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+v1v2 running time = 18775307602
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 107551131622
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 108362067665
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 20730995310
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 109490639490
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 107899750569
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 23168487633
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 115192805399
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 108306778453
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 21614893921
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 111257108863
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 110673431584
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 25629154538
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 114931187901
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 120096349406
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 24682394398
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 113824856013
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 115455221804
+---> v1v1 and v2v2 test test suceeded.
+v1v2 running time = 22526023116
+---> v1v2 test failed.
+proj: mapreduce
+u_test: org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+stackTrace: 
+
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v1v1 running time = 108406257788
+updating test result for file org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJobWithLocalIndividualResourceUnderLimit
+v2v2 running time = 111584878063
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 1720
+0

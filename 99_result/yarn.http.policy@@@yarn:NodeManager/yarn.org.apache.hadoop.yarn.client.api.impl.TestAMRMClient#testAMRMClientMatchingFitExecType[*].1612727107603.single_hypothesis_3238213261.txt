@@ -1,0 +1,131 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list[1]=yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 31369359624
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 39156252662
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 42385303599
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 38464357096
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 38674268747
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 33101810917
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 38686918183
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 33095987797
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 36851211095
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 43108706596
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 35787851740
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 44173928721
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 36203765957
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 45406251477
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 41283897425
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 40144541681
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 44291997199
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 39787053966
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 45533512547
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType[*]
+h_list: yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v1v1 running time = 27866972721
+updating test result for file org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientMatchingFitExecType
+v2v2 running time = 44829300586
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 820
+0

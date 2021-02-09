@@ -1,0 +1,306 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list[1]=yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 30137553776
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 22142309937
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 18818697179
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 23321672494
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 18736991736
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 20750426699
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 29193724608
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 28056806653
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 18496549257
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 23831233435
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 22127750436
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 21090758493
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 25468230277
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 27307911296
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 23426124817
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 20804764715
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 28300445425
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 25861022977
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v2 running time = 21335150210
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+vv_mode: v1v2
+result: FAIL
+failureMessage: Cannot load state from null store
+stackTrace: java.lang.UnsupportedOperationException: Cannot load state from null store
+	at org.apache.hadoop.yarn.server.resourcemanager.recovery.NullRMStateStore.loadState(NullRMStateStore.java:59)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$RMActiveServices.serviceStart(ResourceManager.java:881)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.startActiveServices(ResourceManager.java:1266)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1307)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager$1.run(ResourceManager.java:1303)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.transitionToActive(ResourceManager.java:1303)
+	at org.apache.hadoop.yarn.server.resourcemanager.ResourceManager.serviceStart(ResourceManager.java:1354)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:194)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart.testAppFailToValidateResourceRequestOnRecovery(TestWorkPreservingRMRestart.java:1367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v1v1 running time = 21625869259
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestWorkPreservingRMRestart#testAppFailToValidateResourceRequestOnRecovery
+v2v2 running time = 19290220164
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 490
+0

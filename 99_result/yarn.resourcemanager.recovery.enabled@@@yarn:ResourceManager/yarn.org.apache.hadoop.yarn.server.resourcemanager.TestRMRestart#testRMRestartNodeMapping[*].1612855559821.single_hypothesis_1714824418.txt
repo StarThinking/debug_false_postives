@@ -1,0 +1,131 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list[1]=yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 22806124878
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 19363987223
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 23366207307
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 27695392088
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 27579176619
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 24714050891
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 20973203668
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 22215980781
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 20252778825
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 18386960131
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 15759621630
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 19975569550
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 19390014704
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 18292393343
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 22174909668
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 22348101584
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 22123053606
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 24781045981
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+WARN: conflict exitCode = 1 but tr.result = SUCCEED
+v1v2 running time = 21503222913
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping[*]
+h_list: yarn.resourcemanager.recovery.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+vv_mode: v1v2
+result: FAIL
+failureMessage: none
+stackTrace: none
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v1v1 running time = 20009211007
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestRMRestart#testRMRestartNodeMapping
+v2v2 running time = 20010171913
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 453
+0

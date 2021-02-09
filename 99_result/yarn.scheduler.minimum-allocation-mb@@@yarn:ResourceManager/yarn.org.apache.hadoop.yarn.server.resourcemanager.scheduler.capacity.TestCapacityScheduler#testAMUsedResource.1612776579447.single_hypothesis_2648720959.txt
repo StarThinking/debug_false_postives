@@ -1,0 +1,243 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list[1]=yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 13726424269
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 13017556845
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 13011794574
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 12781304242
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 13742975611
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 11912973132
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 12022231481
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 12674963629
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 14670246712
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 12856174825
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 11639246560
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 12659660617
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 14439339911
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 15468642766
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 13655665524
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 12726016626
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 12940588730
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 13378259556
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v2 running time = 12584815449
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+h_list: yarn.scheduler.minimum-allocation-mb@@@yarn:ResourceManager@@@-2@@@1024@@@2048
+vv_mode: v1v2
+result: FAIL
+failureMessage: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+stackTrace: java.lang.AssertionError: RMApp does not containes minimum allocation expected:<<memory:2048, vCores:1>> but was:<<memory:1024, vCores:1>>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler.testAMUsedResource(TestCapacityScheduler.java:3692)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v1v1 running time = 12034504813
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.TestCapacityScheduler#testAMUsedResource
+v2v2 running time = 11127904451
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 273
+0

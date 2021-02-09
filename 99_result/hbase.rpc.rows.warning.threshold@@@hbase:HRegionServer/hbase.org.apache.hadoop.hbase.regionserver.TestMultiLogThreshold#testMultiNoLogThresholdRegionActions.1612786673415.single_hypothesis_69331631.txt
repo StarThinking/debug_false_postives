@@ -1,0 +1,432 @@
+my_type=hypothesis
+proj=hbase
+u_test=org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list[1]=hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 44848805421
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 46232368569
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 40171858240
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 40660853905
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 40338103800
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 45717836417
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 44177677495
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 43919432404
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 39474943059
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 40128361992
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 39408929732
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 40447164463
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 40328192058
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 42294957469
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 40386652395
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 42214825755
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 40087165950
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 39499037821
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v2 running time = 42133188553
+---> v1v2 test failed.
+proj: hbase
+u_test: org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+h_list: hbase.rpc.rows.warning.threshold@@@hbase:HRegionServer@@@1@@@6000@@@5000
+vv_mode: v1v2
+result: FAIL
+failureMessage: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+stackTrace: org.mockito.exceptions.verification.NeverWantedButInvoked: 
+logDelegate.logBatchWarning(
+    <any string>,
+    <any integer>,
+    <any integer>
+);
+Never wanted here:
+-> at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+But invoked here:
+-> at org.apache.hadoop.hbase.regionserver.RSRpcServices.checkBatchSizeAndLogLargeSize(RSRpcServices.java:2653)
+
+	at org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold.testMultiNoLogThresholdRegionActions(TestMultiLogThreshold.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v1v1 running time = 47853604777
+updating test result for file org.apache.hadoop.hbase.regionserver.TestMultiLogThreshold#testMultiNoLogThresholdRegionActions
+v2v2 running time = 43600699828
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 883
+0
