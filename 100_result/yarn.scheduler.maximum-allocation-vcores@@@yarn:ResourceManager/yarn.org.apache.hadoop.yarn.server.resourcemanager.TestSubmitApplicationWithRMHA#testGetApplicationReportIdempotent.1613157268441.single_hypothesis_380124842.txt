@@ -1,0 +1,481 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list[1]=yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 14637447841
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 19688090264
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 23306995576
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 20978898917
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 20899080208
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 16778938036
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 17755716758
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 19251198227
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 19183961283
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 16978388587
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 15235809725
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 15164248865
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 13375966055
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 16008345060
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 11894670419
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 12857514938
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 20370677710
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 22280292743
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v2 running time = 20001000592
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@-1@@@2@@@4
+vv_mode: v1v2
+result: FAIL
+failureMessage: Error on refreshAll during transition to Active
+stackTrace: org.apache.hadoop.ha.ServiceFailedException: Error on refreshAll during transition to Active
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:322)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:216)
+	at org.apache.hadoop.yarn.server.resourcemanager.RMHATestBase.startRMs(RMHATestBase.java:137)
+	at org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA.testGetApplicationReportIdempotent(TestSubmitApplicationWithRMHA.java:182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.apache.zookeeper.JUnit4ZKTestRunner$LoggedInvokeMethod.evaluate(JUnit4ZKTestRunner.java:55)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatchman$1.evaluate(TestWatchman.java:53)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.hadoop.ha.ServiceFailedException: RefreshAll operation failed
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:779)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.transitionToActive(AdminService.java:314)
+	... 32 more
+Caused by: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshQueues(AdminService.java:437)
+	at org.apache.hadoop.yarn.server.resourcemanager.AdminService.refreshAll(AdminService.java:768)
+	... 33 more
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:4>, trying to set it to: <memory:8192, vCores:2>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 35 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v1v1 running time = 19927359458
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.TestSubmitApplicationWithRMHA#testGetApplicationReportIdempotent
+v2v2 running time = 19091318606
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 375
+0

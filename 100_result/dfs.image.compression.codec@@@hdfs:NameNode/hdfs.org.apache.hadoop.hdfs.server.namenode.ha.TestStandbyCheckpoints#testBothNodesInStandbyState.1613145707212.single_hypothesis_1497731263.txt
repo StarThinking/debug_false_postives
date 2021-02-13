@@ -1,0 +1,299 @@
+my_type=hypothesis
+proj=hdfs
+u_test=org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list[1]=dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 15845819248
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=36bb0ae053b4370dcc0b54a1d134679e
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=b1e2aea40b46973cfd4c54d0152745c6
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=b1e2aea40b46973cfd4c54d0152745c6
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=36bb0ae053b4370dcc0b54a1d134679e
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=36bb0ae053b4370dcc0b54a1d134679e
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=b1e2aea40b46973cfd4c54d0152745c6
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=b1e2aea40b46973cfd4c54d0152745c6
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=36bb0ae053b4370dcc0b54a1d134679e
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 14831916516
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 18305616341
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 20160765923
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=048175113191a7c44ca9600dd4206f84
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=144c1a36acd9b8f50375e2b745d81451
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=144c1a36acd9b8f50375e2b745d81451
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=048175113191a7c44ca9600dd4206f84
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=048175113191a7c44ca9600dd4206f84
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=144c1a36acd9b8f50375e2b745d81451
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=144c1a36acd9b8f50375e2b745d81451
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=048175113191a7c44ca9600dd4206f84
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 22459140431
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 21823256708
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 15602094583
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=5fe09861eb4523c4e7d9c925cc350418
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=cf8c83ac4f4d25b6252f5c7ae1057996
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=cf8c83ac4f4d25b6252f5c7ae1057996
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=5fe09861eb4523c4e7d9c925cc350418
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=5fe09861eb4523c4e7d9c925cc350418
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=cf8c83ac4f4d25b6252f5c7ae1057996
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=cf8c83ac4f4d25b6252f5c7ae1057996
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=5fe09861eb4523c4e7d9c925cc350418
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 25462848188
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 29679119856
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 19541886641
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=6b2e98a65dab16ef9dbb937b82434364
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=b1a42e04e6ef03c5a968694e08d61dec
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=b1a42e04e6ef03c5a968694e08d61dec
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=6b2e98a65dab16ef9dbb937b82434364
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=6b2e98a65dab16ef9dbb937b82434364
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=b1a42e04e6ef03c5a968694e08d61dec
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=b1a42e04e6ef03c5a968694e08d61dec
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=6b2e98a65dab16ef9dbb937b82434364
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 18341541723
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 16179676060
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 13793306864
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=2fb81993cc262177683a9c9fc5977e66
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=ca70812189bdb4b812386ef94ad44356
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=ca70812189bdb4b812386ef94ad44356
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=2fb81993cc262177683a9c9fc5977e66
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=2fb81993cc262177683a9c9fc5977e66
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=ca70812189bdb4b812386ef94ad44356
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=ca70812189bdb4b812386ef94ad44356
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=2fb81993cc262177683a9c9fc5977e66
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 14531759933
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 14721972472
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 14319165753
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=546da6499463b031159d3f734b1fd40a
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=a33961a703fd371abbf1034c666df809
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=a33961a703fd371abbf1034c666df809
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=546da6499463b031159d3f734b1fd40a
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=546da6499463b031159d3f734b1fd40a
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=a33961a703fd371abbf1034c666df809
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=a33961a703fd371abbf1034c666df809
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=546da6499463b031159d3f734b1fd40a
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 15681592071
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 15139917135
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v2 running time = 15158142310
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+h_list: dfs.image.compression.codec@@@hdfs:NameNode@@@-2@@@org.apache.hadoop.io.compress.Lz4Codec@@@org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.SlowCodec
+vv_mode: v1v2
+result: FAIL
+failureMessage: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=d949c3916c0a52d8c467833a5530f765
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=e454921a903f4fa72d5b204ae0f11434
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=e454921a903f4fa72d5b204ae0f11434
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=d949c3916c0a52d8c467833a5530f765
+stackTrace: java.lang.AssertionError: File contents differed:
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-1/current/fsimage_0000000000000000012.md5=d949c3916c0a52d8c467833a5530f765
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-4/current/fsimage_0000000000000000012.md5=e454921a903f4fa72d5b204ae0f11434
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-3/current/fsimage_0000000000000000012.md5=e454921a903f4fa72d5b204ae0f11434
+  /root/hadoop-3.2.1-src/hadoop-hdfs-project/hadoop-hdfs/target/test/data/dfs/name-0-2/current/fsimage_0000000000000000012.md5=d949c3916c0a52d8c467833a5530f765
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertFileContentsSame(FSImageTestUtil.java:419)
+	at org.apache.hadoop.hdfs.server.namenode.FSImageTestUtil.assertParallelFilesAreIdentical(FSImageTestUtil.java:350)
+	at org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints.testBothNodesInStandbyState(TestStandbyCheckpoints.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v1v1 running time = 14286535875
+updating test result for file org.apache.hadoop.hdfs.server.namenode.ha.TestStandbyCheckpoints#testBothNodesInStandbyState
+v2v2 running time = 14980911509
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 370
+0

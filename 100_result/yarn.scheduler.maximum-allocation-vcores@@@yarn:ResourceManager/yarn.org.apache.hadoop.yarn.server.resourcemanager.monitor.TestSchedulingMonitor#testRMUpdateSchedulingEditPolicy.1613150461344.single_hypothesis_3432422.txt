@@ -1,0 +1,285 @@
+my_type=hypothesis
+proj=yarn
+u_test=org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list[1]=yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 10960974068
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 13465651884
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 13653724241
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 12834490004
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 14904804122
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 12203206871
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 12186202164
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 10327558633
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 11276226838
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 10816718054
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 10642692923
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 11790572421
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 11235296569
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 10483630616
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 10316937947
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 10561582057
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 10666214393
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 11473878123
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v2 running time = 10907250098
+---> v1v2 test failed.
+proj: yarn
+u_test: org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+h_list: yarn.scheduler.maximum-allocation-vcores@@@yarn:ResourceManager@@@1@@@4@@@8
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+stackTrace: java.io.IOException: Failed to re-init queues : Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:494)
+	at org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor.testRMUpdateSchedulingEditPolicy(TestSchedulingMonitor.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Trying to reinitialize root.default the maximum allocation size can not be decreased! Current setting: <memory:8192, vCores:8>, trying to set it to: <memory:8192, vCores:4>
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:554)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.LeafQueue.reinitialize(LeafQueue.java:575)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.ParentQueue.reinitialize(ParentQueue.java:384)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerQueueManager.reinitializeQueues(CapacitySchedulerQueueManager.java:187)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitializeQueues(CapacityScheduler.java:778)
+	at org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler.reinitialize(CapacityScheduler.java:489)
+	... 13 more
+
+
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v1v1 running time = 9902871164
+updating test result for file org.apache.hadoop.yarn.server.resourcemanager.monitor.TestSchedulingMonitor#testRMUpdateSchedulingEditPolicy
+v2v2 running time = 10609722395
+---> v1v1 and v2v2 test test suceeded.
+early stop after 7 is satisfied
+v1v2 failed with probability 7 out of 7
+v1v1v2v2 failed with probability 0 out of 7
+Total execution time in seconds : 241
+0

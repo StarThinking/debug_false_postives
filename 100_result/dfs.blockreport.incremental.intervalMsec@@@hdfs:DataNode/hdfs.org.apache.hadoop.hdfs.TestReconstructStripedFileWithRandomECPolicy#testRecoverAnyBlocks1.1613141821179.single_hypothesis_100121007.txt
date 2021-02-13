@@ -1,0 +1,718 @@
+my_type=hypothesis
+proj=hdfs
+u_test=org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list[1]=dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 20471349273
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<5> but was:<4>
+stackTrace: java.lang.AssertionError: expected:<5> but was:<4>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 24212604679
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 26466169592
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 24628898625
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<13> but was:<12>
+stackTrace: java.lang.AssertionError: expected:<13> but was:<12>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 22572923456
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 20768333233
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 20052468025
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to reconstruct striped block: -9223372036854775771
+stackTrace: java.lang.AssertionError: Failed to reconstruct striped block: -9223372036854775771
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.sortTargetsByReplicas(TestReconstructStripedFile.java:418)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:384)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 29975778516
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 15455026251
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 20451379959
+---> v1v2 test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 76293248997
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 18660866805
+---> v1v1 or v2v2 test failed.
+v1v1 failed in a hypo test
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v1
+result: FAIL
+failureMessage: Time out waiting for EC block reconstruction.
+stackTrace: java.io.IOException: Time out waiting for EC block reconstruction.
+	at org.apache.hadoop.hdfs.StripedFileTestUtil.waitForReconstructionFinished(StripedFileTestUtil.java:540)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:382)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 17531298820
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<3> but was:<2>
+stackTrace: java.lang.AssertionError: expected:<3> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 21187191420
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 15628763178
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 24759486195
+---> v1v2 test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 21515136436
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 19651619349
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 77056866233
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: Time out waiting for EC block reconstruction.
+stackTrace: java.io.IOException: Time out waiting for EC block reconstruction.
+	at org.apache.hadoop.hdfs.StripedFileTestUtil.waitForReconstructionFinished(StripedFileTestUtil.java:540)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:382)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 22035661904
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 20601082047
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 22386066185
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: 4
+stackTrace: java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:378)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 21445551651
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 19244424459
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 18690100617
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<7> but was:<10>
+stackTrace: java.lang.AssertionError: expected:<7> but was:<10>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 21455961359
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 19919815951
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 21034474723
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<12> but was:<10>
+stackTrace: java.lang.AssertionError: expected:<12> but was:<10>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 19323323230
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 16055373920
+---> v1v1 or v2v2 test failed.
+v1v1 failed in a hypo test
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v1
+result: FAIL
+failureMessage: 4
+stackTrace: java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:378)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+v2v2 failed in a hypo test
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v2v2
+result: FAIL
+failureMessage: arrays first differed at element [1048064]; expected:<1> but was:<0>
+stackTrace: arrays first differed at element [1048064]; expected:<1> but was:<0>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:341)
+	at org.junit.Assert.assertArrayEquals(Assert.java:352)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:399)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 17 more
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 16276497203
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<11> but was:<13>
+stackTrace: java.lang.AssertionError: expected:<11> but was:<13>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 18991250257
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 18093018292
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 19616032175
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: Failed to reconstruct striped block: -9223372036854775771
+stackTrace: java.lang.AssertionError: Failed to reconstruct striped block: -9223372036854775771
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.sortTargetsByReplicas(TestReconstructStripedFile.java:418)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:384)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 20994131379
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 16103327237
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 16787411649
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<8> but was:<11>
+stackTrace: java.lang.AssertionError: expected:<8> but was:<11>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 26543967796
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 19935973346
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 21862515485
+---> v1v2 test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 20421041491
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 18613209527
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 15479112847
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<4> but was:<3>
+stackTrace: java.lang.AssertionError: expected:<4> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 22135533731
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 16686279072
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 20565110447
+---> v1v2 test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 17787397279
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 16004272953
+---> v1v1 or v2v2 test failed.
+v1v1 failed in a hypo test
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v1
+result: FAIL
+failureMessage: 4
+stackTrace: java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:378)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+v2v2 failed in a hypo test
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v2v2
+result: FAIL
+failureMessage: arrays first differed at element [1048064]; expected:<1> but was:<0>
+stackTrace: arrays first differed at element [1048064]; expected:<1> but was:<0>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:341)
+	at org.junit.Assert.assertArrayEquals(Assert.java:352)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:399)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 17 more
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 19013350871
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<9> but was:<12>
+stackTrace: java.lang.AssertionError: expected:<9> but was:<12>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 22599831834
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 17840809859
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 20557183266
+---> v1v2 test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 23745510643
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 18348133443
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 18299670356
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: expected:<8> but was:<7>
+stackTrace: java.lang.AssertionError: expected:<8> but was:<7>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:372)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 23003554604
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 17936285493
+---> v1v1 and v2v2 test test suceeded.
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v2 running time = 18741012185
+---> v1v2 test failed.
+proj: hdfs
+u_test: org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+h_list: dfs.blockreport.incremental.intervalMsec@@@hdfs:DataNode@@@-1@@@10000000@@@0
+vv_mode: v1v2
+result: FAIL
+failureMessage: arrays first differed at element [0]; expected:<1> but was:<0>
+stackTrace: arrays first differed at element [0]; expected:<1> but was:<0>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:341)
+	at org.junit.Assert.assertArrayEquals(Assert.java:352)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.assertFileBlocksReconstruction(TestReconstructStripedFile.java:399)
+	at org.apache.hadoop.hdfs.TestReconstructStripedFile.testRecoverAnyBlocks1(TestReconstructStripedFile.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 17 more
+
+
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v1v1 running time = 21368196126
+updating test result for file org.apache.hadoop.hdfs.TestReconstructStripedFileWithRandomECPolicy#testRecoverAnyBlocks1
+v2v2 running time = 20122269734
+---> v1v1 and v2v2 test test suceeded.
+v1v2 failed with probability 15 out of 20
+v1v1v2v2 failed with probability 3 out of 20
+Total execution time in seconds : 1324
+0
