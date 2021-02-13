@@ -1,0 +1,16 @@
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.dispatcher.print-events-info.threshold yarn:NodeManager 1 10000 5000
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.dispatcher.print-events-info.threshold yarn:NodeManager 1 5000 10000
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.dispatcher.print-events-info.threshold yarn:NodeManager 1 5000 500
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.dispatcher.print-events-info.threshold yarn:NodeManager 1 500 5000
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-mb yarn:NodeManager 1 1024 8192
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-mb yarn:NodeManager 1 16384 8192
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-mb yarn:NodeManager 1 8192 1024
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-mb yarn:NodeManager 1 8192 16384
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-vcores yarn:NodeManager 1 2 4
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-vcores yarn:NodeManager 1 4 2
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-vcores yarn:NodeManager 1 4 8
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.maximum-allocation-vcores yarn:NodeManager 1 8 4
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.minimum-allocation-mb yarn:NodeManager 1 1024 2048
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.minimum-allocation-mb yarn:NodeManager 1 1024 512
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.minimum-allocation-mb yarn:NodeManager 1 2048 1024
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testRecentlyFinishedContainers yarn.scheduler.minimum-allocation-mb yarn:NodeManager 1 512 1024

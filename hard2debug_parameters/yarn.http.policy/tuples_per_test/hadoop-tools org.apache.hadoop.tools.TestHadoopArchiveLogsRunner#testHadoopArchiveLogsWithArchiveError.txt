@@ -1,0 +1,8 @@
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:NodeManager -1 HTTP_ONLY HTTPS_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:NodeManager -2 HTTP_ONLY HTTPS_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:NodeManager -3 HTTP_ONLY HTTPS_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:NodeManager -1 HTTPS_ONLY HTTP_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:NodeManager -2 HTTPS_ONLY HTTP_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:NodeManager -3 HTTPS_ONLY HTTP_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:ResourceManager 1 HTTP_ONLY HTTPS_ONLY
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.http.policy yarn:ResourceManager 1 HTTPS_ONLY HTTP_ONLY

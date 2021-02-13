@@ -1,0 +1,6 @@
+hbase org.apache.hadoop.hbase.master.TestMasterNoCluster#testMasterInitWithSameClientServerZKQuorum hbase.hregion.memstore.mslab.enabled hbase:HMaster 1 false true
+hbase org.apache.hadoop.hbase.master.TestMasterNoCluster#testMasterInitWithSameClientServerZKQuorum hbase.hregion.memstore.mslab.enabled hbase:HMaster 1 true false
+hbase org.apache.hadoop.hbase.master.TestMasterNoCluster#testMasterInitWithSameClientServerZKQuorum hbase.rpc.rows.warning.threshold hbase:HMaster 1 5000 500
+hbase org.apache.hadoop.hbase.master.TestMasterNoCluster#testMasterInitWithSameClientServerZKQuorum hbase.rpc.rows.warning.threshold hbase:HMaster 1 5000 6000
+hbase org.apache.hadoop.hbase.master.TestMasterNoCluster#testMasterInitWithSameClientServerZKQuorum hbase.rpc.rows.warning.threshold hbase:HMaster 1 500 5000
+hbase org.apache.hadoop.hbase.master.TestMasterNoCluster#testMasterInitWithSameClientServerZKQuorum hbase.rpc.rows.warning.threshold hbase:HMaster 1 6000 5000

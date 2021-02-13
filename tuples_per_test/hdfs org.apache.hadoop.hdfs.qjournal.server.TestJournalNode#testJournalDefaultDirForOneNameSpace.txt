@@ -1,0 +1,14 @@
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace dfs.http.policy hdfs:JournalNode 1 HTTP_AND_HTTPS HTTP_ONLY
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace dfs.http.policy hdfs:JournalNode 1 HTTP_ONLY HTTP_AND_HTTPS
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace dfs.http.policy hdfs:JournalNode 1 HTTP_ONLY HTTPS_ONLY
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace dfs.http.policy hdfs:JournalNode 1 HTTPS_ONLY HTTP_ONLY
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.client.connection.maxidletime hdfs:JournalNode 1 10000 1000
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.client.connection.maxidletime hdfs:JournalNode 1 10000 20000
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.client.connection.maxidletime hdfs:JournalNode 1 1000 10000
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.client.connection.maxidletime hdfs:JournalNode 1 20000 10000
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.server.max.connections hdfs:JournalNode 1 0 1
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.server.max.connections hdfs:JournalNode 1 0 2
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.server.max.connections hdfs:JournalNode 1 0 8
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.server.max.connections hdfs:JournalNode 1 1 0
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.server.max.connections hdfs:JournalNode 1 2 0
+hdfs org.apache.hadoop.hdfs.qjournal.server.TestJournalNode#testJournalDefaultDirForOneNameSpace ipc.server.max.connections hdfs:JournalNode 1 8 0

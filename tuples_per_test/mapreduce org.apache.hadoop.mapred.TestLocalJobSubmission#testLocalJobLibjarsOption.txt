@@ -1,0 +1,12 @@
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.connection.maxidletime hadoop:Tool 1 10000 1000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.connection.maxidletime hadoop:Tool 1 10000 20000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.connection.maxidletime hadoop:Tool 1 1000 10000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.connection.maxidletime hadoop:Tool 1 20000 10000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.ping hadoop:Tool 1 false true
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.ping hadoop:Tool 1 true false
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.tcpnodelay hadoop:Tool 1 false true
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.client.tcpnodelay hadoop:Tool 1 true false
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.ping.interval hadoop:Tool 1 1000 60000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.ping.interval hadoop:Tool 1 60000 1000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.ping.interval hadoop:Tool 1 60000 70000
+mapreduce org.apache.hadoop.mapred.TestLocalJobSubmission#testLocalJobLibjarsOption ipc.ping.interval hadoop:Tool 1 70000 60000

@@ -1,0 +1,2 @@
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSGenericSynth#testSimulatorRunning[*] yarn.http.policy hadoop:Tool 1 HTTP_ONLY HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSGenericSynth#testSimulatorRunning[*] yarn.http.policy hadoop:Tool 1 HTTPS_ONLY HTTP_ONLY

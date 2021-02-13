@@ -1,0 +1,2 @@
+mapreduce org.apache.hadoop.mapred.TestLocalModeWithNewApis#testNewApis mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 false true
+mapreduce org.apache.hadoop.mapred.TestLocalModeWithNewApis#testNewApis mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 true false

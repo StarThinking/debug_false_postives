@@ -1,0 +1,6 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.TestRMWebServices#testClusterUserInfo yarn.http.policy yarn:ResourceManager -1 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.TestRMWebServices#testClusterUserInfo yarn.http.policy yarn:ResourceManager -2 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.TestRMWebServices#testClusterUserInfo yarn.http.policy yarn:ResourceManager -3 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.TestRMWebServices#testClusterUserInfo yarn.http.policy yarn:ResourceManager -1 HTTPS_ONLY HTTP_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.TestRMWebServices#testClusterUserInfo yarn.http.policy yarn:ResourceManager -2 HTTPS_ONLY HTTP_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.TestRMWebServices#testClusterUserInfo yarn.http.policy yarn:ResourceManager -3 HTTPS_ONLY HTTP_ONLY

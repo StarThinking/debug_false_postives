@@ -1,0 +1,4 @@
+hbase org.apache.hadoop.hbase.regionserver.TestPriorityRpc#testQosFunctionForMeta hbase.rpc.rows.warning.threshold hbase:HRegionServer 1 5000 500
+hbase org.apache.hadoop.hbase.regionserver.TestPriorityRpc#testQosFunctionForMeta hbase.rpc.rows.warning.threshold hbase:HRegionServer 1 5000 6000
+hbase org.apache.hadoop.hbase.regionserver.TestPriorityRpc#testQosFunctionForMeta hbase.rpc.rows.warning.threshold hbase:HRegionServer 1 500 5000
+hbase org.apache.hadoop.hbase.regionserver.TestPriorityRpc#testQosFunctionForMeta hbase.rpc.rows.warning.threshold hbase:HRegionServer 1 6000 5000

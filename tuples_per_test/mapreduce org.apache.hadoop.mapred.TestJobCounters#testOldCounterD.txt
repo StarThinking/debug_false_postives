@@ -1,0 +1,6 @@
+mapreduce org.apache.hadoop.mapred.TestJobCounters#testOldCounterD mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -1 false true
+mapreduce org.apache.hadoop.mapred.TestJobCounters#testOldCounterD mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -2 false true
+mapreduce org.apache.hadoop.mapred.TestJobCounters#testOldCounterD mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -3 false true
+mapreduce org.apache.hadoop.mapred.TestJobCounters#testOldCounterD mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -1 true false
+mapreduce org.apache.hadoop.mapred.TestJobCounters#testOldCounterD mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -2 true false
+mapreduce org.apache.hadoop.mapred.TestJobCounters#testOldCounterD mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -3 true false

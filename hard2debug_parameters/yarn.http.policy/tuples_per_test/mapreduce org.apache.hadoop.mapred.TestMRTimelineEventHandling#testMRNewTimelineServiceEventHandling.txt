@@ -1,0 +1,8 @@
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy mapreduce:JobHistoryServer 1 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy mapreduce:JobHistoryServer 1 HTTPS_ONLY HTTP_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy yarn:ApplicationHistoryServer 1 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy yarn:ApplicationHistoryServer 1 HTTPS_ONLY HTTP_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy yarn:NodeManager 1 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy yarn:NodeManager 1 HTTPS_ONLY HTTP_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy yarn:ResourceManager 1 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapred.TestMRTimelineEventHandling#testMRNewTimelineServiceEventHandling yarn.http.policy yarn:ResourceManager 1 HTTPS_ONLY HTTP_ONLY

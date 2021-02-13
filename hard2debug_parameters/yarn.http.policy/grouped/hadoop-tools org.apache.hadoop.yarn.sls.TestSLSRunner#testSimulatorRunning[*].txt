@@ -1,0 +1,6 @@
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.http.policy@@@hadoop:Tool@@@-1@@@HTTP_ONLY@@@HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.http.policy@@@hadoop:Tool@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.http.policy@@@hadoop:Tool@@@-3@@@HTTP_ONLY@@@HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.http.policy@@@hadoop:Tool@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.http.policy@@@hadoop:Tool@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.http.policy@@@hadoop:Tool@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY

@@ -1,0 +1,14 @@
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.client.connection.maxidletime mapreduce:JobHistoryServer 1 10000 1000
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.client.connection.maxidletime mapreduce:JobHistoryServer 1 10000 20000
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.client.connection.maxidletime mapreduce:JobHistoryServer 1 1000 10000
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.client.connection.maxidletime mapreduce:JobHistoryServer 1 20000 10000
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.server.max.connections mapreduce:JobHistoryServer 1 0 1
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.server.max.connections mapreduce:JobHistoryServer 1 0 2
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.server.max.connections mapreduce:JobHistoryServer 1 0 8
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.server.max.connections mapreduce:JobHistoryServer 1 1 0
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.server.max.connections mapreduce:JobHistoryServer 1 2 0
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer ipc.server.max.connections mapreduce:JobHistoryServer 1 8 0
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer yarn.http.policy mapreduce:JobHistoryServer 1 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer yarn.http.policy mapreduce:JobHistoryServer 1 HTTPS_ONLY HTTP_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 false true
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 true false

@@ -1,0 +1,2 @@
+hadoop-tools org.apache.hadoop.streaming.mapreduce.TestStreamXmlRecordReader#testStreamXmlRecordReader mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 false true
+hadoop-tools org.apache.hadoop.streaming.mapreduce.TestStreamXmlRecordReader#testStreamXmlRecordReader mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 true false

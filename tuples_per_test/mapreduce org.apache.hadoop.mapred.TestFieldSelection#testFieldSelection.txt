@@ -1,0 +1,2 @@
+mapreduce org.apache.hadoop.mapred.TestFieldSelection#testFieldSelection mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 false true
+mapreduce org.apache.hadoop.mapred.TestFieldSelection#testFieldSelection mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 true false

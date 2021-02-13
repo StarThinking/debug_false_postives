@@ -1,0 +1,12 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.client.connection.maxidletime yarn:ApplicationHistoryServer 1 10000 1000
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.client.connection.maxidletime yarn:ApplicationHistoryServer 1 10000 20000
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.client.connection.maxidletime yarn:ApplicationHistoryServer 1 1000 10000
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.client.connection.maxidletime yarn:ApplicationHistoryServer 1 20000 10000
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.server.max.connections yarn:ApplicationHistoryServer 1 0 1
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.server.max.connections yarn:ApplicationHistoryServer 1 0 2
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.server.max.connections yarn:ApplicationHistoryServer 1 0 8
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.server.max.connections yarn:ApplicationHistoryServer 1 1 0
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.server.max.connections yarn:ApplicationHistoryServer 1 2 0
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics ipc.server.max.connections yarn:ApplicationHistoryServer 1 8 0
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics yarn.http.policy yarn:ApplicationHistoryServer 1 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.metrics.TestSystemMetricsPublisher#testPublishContainerMetrics yarn.http.policy yarn:ApplicationHistoryServer 1 HTTPS_ONLY HTTP_ONLY

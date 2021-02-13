@@ -1,0 +1,6 @@
+mapreduce org.apache.hadoop.mapreduce.lib.partition.TestMRKeyFieldBasedComparator#testBasicUnixComparator mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable -1 false true
+mapreduce org.apache.hadoop.mapreduce.lib.partition.TestMRKeyFieldBasedComparator#testBasicUnixComparator mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable -2 false true
+mapreduce org.apache.hadoop.mapreduce.lib.partition.TestMRKeyFieldBasedComparator#testBasicUnixComparator mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable -3 false true
+mapreduce org.apache.hadoop.mapreduce.lib.partition.TestMRKeyFieldBasedComparator#testBasicUnixComparator mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable -1 true false
+mapreduce org.apache.hadoop.mapreduce.lib.partition.TestMRKeyFieldBasedComparator#testBasicUnixComparator mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable -2 true false
+mapreduce org.apache.hadoop.mapreduce.lib.partition.TestMRKeyFieldBasedComparator#testBasicUnixComparator mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable -3 true false

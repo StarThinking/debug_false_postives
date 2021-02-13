@@ -1,0 +1,4 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestRMAdminService#testHAConfWithoutLeaderElection yarn.http.policy yarn:ResourceManager 1 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestRMAdminService#testHAConfWithoutLeaderElection yarn.http.policy yarn:ResourceManager 1 HTTPS_ONLY HTTP_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestRMAdminService#testHAConfWithoutLeaderElection yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestRMAdminService#testHAConfWithoutLeaderElection yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

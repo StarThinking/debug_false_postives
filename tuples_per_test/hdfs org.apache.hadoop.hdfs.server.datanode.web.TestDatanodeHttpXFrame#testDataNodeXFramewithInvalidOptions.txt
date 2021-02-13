@@ -1,0 +1,4 @@
+hdfs org.apache.hadoop.hdfs.server.datanode.web.TestDatanodeHttpXFrame#testDataNodeXFramewithInvalidOptions dfs.http.policy hdfs:NameNode 1 HTTP_AND_HTTPS HTTP_ONLY
+hdfs org.apache.hadoop.hdfs.server.datanode.web.TestDatanodeHttpXFrame#testDataNodeXFramewithInvalidOptions dfs.http.policy hdfs:NameNode 1 HTTP_ONLY HTTP_AND_HTTPS
+hdfs org.apache.hadoop.hdfs.server.datanode.web.TestDatanodeHttpXFrame#testDataNodeXFramewithInvalidOptions dfs.http.policy hdfs:NameNode 1 HTTP_ONLY HTTPS_ONLY
+hdfs org.apache.hadoop.hdfs.server.datanode.web.TestDatanodeHttpXFrame#testDataNodeXFramewithInvalidOptions dfs.http.policy hdfs:NameNode 1 HTTPS_ONLY HTTP_ONLY

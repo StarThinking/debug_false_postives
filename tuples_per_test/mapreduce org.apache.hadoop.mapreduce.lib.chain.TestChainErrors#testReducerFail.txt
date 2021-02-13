@@ -1,0 +1,2 @@
+mapreduce org.apache.hadoop.mapreduce.lib.chain.TestChainErrors#testReducerFail mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 false true
+mapreduce org.apache.hadoop.mapreduce.lib.chain.TestChainErrors#testReducerFail mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 true false

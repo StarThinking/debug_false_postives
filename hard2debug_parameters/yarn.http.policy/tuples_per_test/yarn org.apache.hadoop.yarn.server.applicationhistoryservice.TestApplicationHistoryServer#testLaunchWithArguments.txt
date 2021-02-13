@@ -1,0 +1,2 @@
+yarn org.apache.hadoop.yarn.server.applicationhistoryservice.TestApplicationHistoryServer#testLaunchWithArguments yarn.http.policy yarn:ApplicationHistoryServer 1 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.applicationhistoryservice.TestApplicationHistoryServer#testLaunchWithArguments yarn.http.policy yarn:ApplicationHistoryServer 1 HTTPS_ONLY HTTP_ONLY

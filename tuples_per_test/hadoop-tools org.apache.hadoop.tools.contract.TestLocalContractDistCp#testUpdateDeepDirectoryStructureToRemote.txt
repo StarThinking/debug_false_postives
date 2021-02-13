@@ -1,0 +1,6 @@
+hadoop-tools org.apache.hadoop.tools.contract.TestLocalContractDistCp#testUpdateDeepDirectoryStructureToRemote mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -1 false true
+hadoop-tools org.apache.hadoop.tools.contract.TestLocalContractDistCp#testUpdateDeepDirectoryStructureToRemote mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -2 false true
+hadoop-tools org.apache.hadoop.tools.contract.TestLocalContractDistCp#testUpdateDeepDirectoryStructureToRemote mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -3 false true
+hadoop-tools org.apache.hadoop.tools.contract.TestLocalContractDistCp#testUpdateDeepDirectoryStructureToRemote mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -1 true false
+hadoop-tools org.apache.hadoop.tools.contract.TestLocalContractDistCp#testUpdateDeepDirectoryStructureToRemote mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -2 true false
+hadoop-tools org.apache.hadoop.tools.contract.TestLocalContractDistCp#testUpdateDeepDirectoryStructureToRemote mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable -3 true false

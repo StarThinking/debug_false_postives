@@ -1,0 +1,2 @@
+hadoop-tools org.apache.hadoop.tools.TestDistCpViewFs#testUpdateGlobTargetMissingMultiLevel mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable 1 false true
+hadoop-tools org.apache.hadoop.tools.TestDistCpViewFs#testUpdateGlobTargetMissingMultiLevel mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable 1 true false

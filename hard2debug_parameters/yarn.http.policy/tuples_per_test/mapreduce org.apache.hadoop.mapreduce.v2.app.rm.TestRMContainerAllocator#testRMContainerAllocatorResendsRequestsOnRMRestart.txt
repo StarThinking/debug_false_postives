@@ -1,0 +1,6 @@
+mapreduce org.apache.hadoop.mapreduce.v2.app.rm.TestRMContainerAllocator#testRMContainerAllocatorResendsRequestsOnRMRestart yarn.http.policy yarn:ResourceManager -1 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.app.rm.TestRMContainerAllocator#testRMContainerAllocatorResendsRequestsOnRMRestart yarn.http.policy yarn:ResourceManager -2 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.app.rm.TestRMContainerAllocator#testRMContainerAllocatorResendsRequestsOnRMRestart yarn.http.policy yarn:ResourceManager -3 HTTP_ONLY HTTPS_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.app.rm.TestRMContainerAllocator#testRMContainerAllocatorResendsRequestsOnRMRestart yarn.http.policy yarn:ResourceManager -1 HTTPS_ONLY HTTP_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.app.rm.TestRMContainerAllocator#testRMContainerAllocatorResendsRequestsOnRMRestart yarn.http.policy yarn:ResourceManager -2 HTTPS_ONLY HTTP_ONLY
+mapreduce org.apache.hadoop.mapreduce.v2.app.rm.TestRMContainerAllocator#testRMContainerAllocatorResendsRequestsOnRMRestart yarn.http.policy yarn:ResourceManager -3 HTTPS_ONLY HTTP_ONLY

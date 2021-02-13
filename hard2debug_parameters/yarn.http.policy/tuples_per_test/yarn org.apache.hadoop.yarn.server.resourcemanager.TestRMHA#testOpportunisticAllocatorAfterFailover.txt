@@ -1,0 +1,2 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestRMHA#testOpportunisticAllocatorAfterFailover yarn.http.policy yarn:ResourceManager 1 HTTP_ONLY HTTPS_ONLY
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestRMHA#testOpportunisticAllocatorAfterFailover yarn.http.policy yarn:ResourceManager 1 HTTPS_ONLY HTTP_ONLY

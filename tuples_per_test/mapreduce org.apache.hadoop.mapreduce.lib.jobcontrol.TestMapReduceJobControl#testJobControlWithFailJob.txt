@@ -1,0 +1,4 @@
+mapreduce org.apache.hadoop.mapreduce.lib.jobcontrol.TestMapReduceJobControl#testJobControlWithFailJob mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable 1 false true
+mapreduce org.apache.hadoop.mapreduce.lib.jobcontrol.TestMapReduceJobControl#testJobControlWithFailJob mapreduce.output.fileoutputformat.compress mapreduce:MapTaskRunnable 1 true false
+mapreduce org.apache.hadoop.mapreduce.lib.jobcontrol.TestMapReduceJobControl#testJobControlWithFailJob mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 false true
+mapreduce org.apache.hadoop.mapreduce.lib.jobcontrol.TestMapReduceJobControl#testJobControlWithFailJob mapreduce.output.fileoutputformat.compress mapreduce:ReduceTaskRunnable 1 true false

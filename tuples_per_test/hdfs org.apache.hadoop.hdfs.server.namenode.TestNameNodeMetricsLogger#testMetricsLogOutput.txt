@@ -1,0 +1,14 @@
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput dfs.http.policy hdfs:NameNode 1 HTTP_AND_HTTPS HTTP_ONLY
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput dfs.http.policy hdfs:NameNode 1 HTTP_ONLY HTTP_AND_HTTPS
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput dfs.http.policy hdfs:NameNode 1 HTTP_ONLY HTTPS_ONLY
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput dfs.http.policy hdfs:NameNode 1 HTTPS_ONLY HTTP_ONLY
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.client.connection.maxidletime hdfs:NameNode 1 10000 1000
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.client.connection.maxidletime hdfs:NameNode 1 10000 20000
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.client.connection.maxidletime hdfs:NameNode 1 1000 10000
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.client.connection.maxidletime hdfs:NameNode 1 20000 10000
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.server.max.connections hdfs:NameNode 1 0 1
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.server.max.connections hdfs:NameNode 1 0 2
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.server.max.connections hdfs:NameNode 1 0 8
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.server.max.connections hdfs:NameNode 1 1 0
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.server.max.connections hdfs:NameNode 1 2 0
+hdfs org.apache.hadoop.hdfs.server.namenode.TestNameNodeMetricsLogger#testMetricsLogOutput ipc.server.max.connections hdfs:NameNode 1 8 0

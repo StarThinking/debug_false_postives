@@ -1,0 +1,6 @@
+hadoop-tools org.apache.hadoop.yarn.sls.appmaster.TestAMSimulator#testAMSimulatorWithNodeLabels[*] yarn.http.policy@@@yarn:ResourceManager@@@-1@@@HTTP_ONLY@@@HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.appmaster.TestAMSimulator#testAMSimulatorWithNodeLabels[*] yarn.http.policy@@@yarn:ResourceManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.appmaster.TestAMSimulator#testAMSimulatorWithNodeLabels[*] yarn.http.policy@@@yarn:ResourceManager@@@-3@@@HTTP_ONLY@@@HTTPS_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.appmaster.TestAMSimulator#testAMSimulatorWithNodeLabels[*] yarn.http.policy@@@yarn:ResourceManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.appmaster.TestAMSimulator#testAMSimulatorWithNodeLabels[*] yarn.http.policy@@@yarn:ResourceManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+hadoop-tools org.apache.hadoop.yarn.sls.appmaster.TestAMSimulator#testAMSimulatorWithNodeLabels[*] yarn.http.policy@@@yarn:ResourceManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY

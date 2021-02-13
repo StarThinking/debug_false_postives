@@ -1,0 +1,12 @@
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTP_ONLY@@@HTTPS_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTP_ONLY@@@HTTPS_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:NodeManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:NodeManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:NodeManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:ResourceManager@@@-1@@@HTTP_ONLY@@@HTTPS_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:ResourceManager@@@-2@@@HTTP_ONLY@@@HTTPS_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:ResourceManager@@@-3@@@HTTP_ONLY@@@HTTPS_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:ResourceManager@@@-1@@@HTTPS_ONLY@@@HTTP_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:ResourceManager@@@-2@@@HTTPS_ONLY@@@HTTP_ONLY
+yarn org.apache.hadoop.yarn.client.api.impl.TestAMRMClient#testAMRMClientWithContainerDemotion[*] yarn.http.policy@@@yarn:ResourceManager@@@-3@@@HTTPS_ONLY@@@HTTP_ONLY
