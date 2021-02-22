@@ -1,0 +1,2 @@
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testNMRMConnectionConf yarn.resourcemanager.ha.enabled@@@yarn:NodeManager@@@1@@@false@@@true
+yarn org.apache.hadoop.yarn.server.nodemanager.TestNodeStatusUpdater#testNMRMConnectionConf yarn.resourcemanager.ha.enabled@@@yarn:NodeManager@@@1@@@true@@@false

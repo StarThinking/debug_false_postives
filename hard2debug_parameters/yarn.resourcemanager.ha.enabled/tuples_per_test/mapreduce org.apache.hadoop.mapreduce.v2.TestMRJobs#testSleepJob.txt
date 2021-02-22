@@ -1,0 +1,6 @@
+mapreduce org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJob yarn.resourcemanager.ha.enabled hadoop:Tool 1 false true
+mapreduce org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJob yarn.resourcemanager.ha.enabled hadoop:Tool 1 true false
+mapreduce org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJob yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 false true
+mapreduce org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJob yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 true false
+mapreduce org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJob yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+mapreduce org.apache.hadoop.mapreduce.v2.TestMRJobs#testSleepJob yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

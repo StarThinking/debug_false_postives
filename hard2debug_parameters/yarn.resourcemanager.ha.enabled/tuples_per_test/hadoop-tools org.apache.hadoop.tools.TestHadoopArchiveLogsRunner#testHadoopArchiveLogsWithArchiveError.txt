@@ -1,0 +1,2 @@
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogsRunner#testHadoopArchiveLogsWithArchiveError yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

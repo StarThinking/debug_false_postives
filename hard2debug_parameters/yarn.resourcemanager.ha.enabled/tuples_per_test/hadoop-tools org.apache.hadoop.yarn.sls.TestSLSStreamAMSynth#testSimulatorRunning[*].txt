@@ -1,0 +1,2 @@
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSStreamAMSynth#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled hadoop:Tool 1 false true
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSStreamAMSynth#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled hadoop:Tool 1 true false

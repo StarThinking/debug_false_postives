@@ -1,0 +1,2 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler#testPerfMetricsInited yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@false@@@true
+yarn org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.TestFairScheduler#testPerfMetricsInited yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@true@@@false

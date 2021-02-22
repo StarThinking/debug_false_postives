@@ -1,0 +1,10 @@
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@1000@@@30000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@300000@@@30000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@1000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@300
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@3000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@300000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@60000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@3000@@@30000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@300@@@30000
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortMagicCommitter#test_140_teracomplete dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@60000@@@30000

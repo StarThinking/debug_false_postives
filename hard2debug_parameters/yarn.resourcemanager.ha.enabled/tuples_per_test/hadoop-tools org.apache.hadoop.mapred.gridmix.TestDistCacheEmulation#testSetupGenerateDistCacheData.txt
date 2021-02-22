@@ -1,0 +1,4 @@
+hadoop-tools org.apache.hadoop.mapred.gridmix.TestDistCacheEmulation#testSetupGenerateDistCacheData yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 false true
+hadoop-tools org.apache.hadoop.mapred.gridmix.TestDistCacheEmulation#testSetupGenerateDistCacheData yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 true false
+hadoop-tools org.apache.hadoop.mapred.gridmix.TestDistCacheEmulation#testSetupGenerateDistCacheData yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+hadoop-tools org.apache.hadoop.mapred.gridmix.TestDistCacheEmulation#testSetupGenerateDistCacheData yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

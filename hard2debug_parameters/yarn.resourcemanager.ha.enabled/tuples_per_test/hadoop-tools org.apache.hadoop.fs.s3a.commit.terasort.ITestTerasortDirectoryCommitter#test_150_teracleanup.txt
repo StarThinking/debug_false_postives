@@ -1,0 +1,4 @@
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_150_teracleanup yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 false true
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_150_teracleanup yarn.resourcemanager.ha.enabled mapreduce:JobHistoryServer 1 true false
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_150_teracleanup yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+hadoop-tools org.apache.hadoop.fs.s3a.commit.terasort.ITestTerasortDirectoryCommitter#test_150_teracleanup yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

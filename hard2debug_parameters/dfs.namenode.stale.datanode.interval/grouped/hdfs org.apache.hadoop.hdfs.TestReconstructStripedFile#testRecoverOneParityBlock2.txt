@@ -1,0 +1,10 @@
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@1000@@@30000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@300000@@@30000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@1000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@300
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@3000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@300000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@30000@@@60000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@3000@@@30000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@300@@@30000
+hdfs org.apache.hadoop.hdfs.TestReconstructStripedFile#testRecoverOneParityBlock2 dfs.namenode.stale.datanode.interval@@@hdfs:NameNode@@@1@@@60000@@@30000

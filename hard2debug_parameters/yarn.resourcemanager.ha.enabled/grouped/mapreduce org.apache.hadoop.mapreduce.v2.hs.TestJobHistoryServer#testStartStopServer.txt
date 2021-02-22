@@ -1,0 +1,2 @@
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer yarn.resourcemanager.ha.enabled@@@mapreduce:JobHistoryServer@@@1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryServer#testStartStopServer yarn.resourcemanager.ha.enabled@@@mapreduce:JobHistoryServer@@@1@@@true@@@false

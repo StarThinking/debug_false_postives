@@ -1,0 +1,2 @@
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogs#testFilterAppsByAggregatedStatus yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+hadoop-tools org.apache.hadoop.tools.TestHadoopArchiveLogs#testFilterAppsByAggregatedStatus yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

@@ -1,0 +1,6 @@
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-1@@@false@@@true
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-2@@@false@@@true
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-3@@@false@@@true
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-1@@@true@@@false
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-2@@@true@@@false
+hadoop-tools org.apache.hadoop.yarn.sls.TestSLSRunner#testSimulatorRunning[*] yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-3@@@true@@@false

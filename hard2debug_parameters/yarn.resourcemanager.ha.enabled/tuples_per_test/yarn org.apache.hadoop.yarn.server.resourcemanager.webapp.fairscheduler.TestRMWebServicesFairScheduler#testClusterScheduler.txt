@@ -1,0 +1,6 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.fairscheduler.TestRMWebServicesFairScheduler#testClusterScheduler yarn.resourcemanager.ha.enabled yarn:ResourceManager -1 false true
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.fairscheduler.TestRMWebServicesFairScheduler#testClusterScheduler yarn.resourcemanager.ha.enabled yarn:ResourceManager -2 false true
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.fairscheduler.TestRMWebServicesFairScheduler#testClusterScheduler yarn.resourcemanager.ha.enabled yarn:ResourceManager -3 false true
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.fairscheduler.TestRMWebServicesFairScheduler#testClusterScheduler yarn.resourcemanager.ha.enabled yarn:ResourceManager -1 true false
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.fairscheduler.TestRMWebServicesFairScheduler#testClusterScheduler yarn.resourcemanager.ha.enabled yarn:ResourceManager -2 true false
+yarn org.apache.hadoop.yarn.server.resourcemanager.webapp.fairscheduler.TestRMWebServicesFairScheduler#testClusterScheduler yarn.resourcemanager.ha.enabled yarn:ResourceManager -3 true false

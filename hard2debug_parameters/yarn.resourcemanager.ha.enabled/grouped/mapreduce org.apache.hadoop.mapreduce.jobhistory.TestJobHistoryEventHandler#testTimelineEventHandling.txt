@@ -1,0 +1,2 @@
+mapreduce org.apache.hadoop.mapreduce.jobhistory.TestJobHistoryEventHandler#testTimelineEventHandling yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.jobhistory.TestJobHistoryEventHandler#testTimelineEventHandling yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@true@@@false

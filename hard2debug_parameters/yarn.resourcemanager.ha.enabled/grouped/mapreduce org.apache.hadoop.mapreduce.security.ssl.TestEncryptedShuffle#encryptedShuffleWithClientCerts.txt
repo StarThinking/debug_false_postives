@@ -1,0 +1,4 @@
+mapreduce org.apache.hadoop.mapreduce.security.ssl.TestEncryptedShuffle#encryptedShuffleWithClientCerts yarn.resourcemanager.ha.enabled@@@mapreduce:JobHistoryServer@@@1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.security.ssl.TestEncryptedShuffle#encryptedShuffleWithClientCerts yarn.resourcemanager.ha.enabled@@@mapreduce:JobHistoryServer@@@1@@@true@@@false
+mapreduce org.apache.hadoop.mapreduce.security.ssl.TestEncryptedShuffle#encryptedShuffleWithClientCerts yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.security.ssl.TestEncryptedShuffle#encryptedShuffleWithClientCerts yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@true@@@false

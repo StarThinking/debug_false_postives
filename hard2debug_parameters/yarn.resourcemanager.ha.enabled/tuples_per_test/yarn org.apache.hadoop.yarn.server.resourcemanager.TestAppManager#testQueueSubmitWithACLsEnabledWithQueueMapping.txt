@@ -1,0 +1,2 @@
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestAppManager#testQueueSubmitWithACLsEnabledWithQueueMapping yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 false true
+yarn org.apache.hadoop.yarn.server.resourcemanager.TestAppManager#testQueueSubmitWithACLsEnabledWithQueueMapping yarn.resourcemanager.ha.enabled yarn:ResourceManager 1 true false

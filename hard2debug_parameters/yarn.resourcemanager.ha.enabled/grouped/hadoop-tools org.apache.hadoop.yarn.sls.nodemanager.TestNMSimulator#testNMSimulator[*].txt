@@ -1,0 +1,6 @@
+hadoop-tools org.apache.hadoop.yarn.sls.nodemanager.TestNMSimulator#testNMSimulator[*] yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@-1@@@false@@@true
+hadoop-tools org.apache.hadoop.yarn.sls.nodemanager.TestNMSimulator#testNMSimulator[*] yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@-2@@@false@@@true
+hadoop-tools org.apache.hadoop.yarn.sls.nodemanager.TestNMSimulator#testNMSimulator[*] yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@-3@@@false@@@true
+hadoop-tools org.apache.hadoop.yarn.sls.nodemanager.TestNMSimulator#testNMSimulator[*] yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@-1@@@true@@@false
+hadoop-tools org.apache.hadoop.yarn.sls.nodemanager.TestNMSimulator#testNMSimulator[*] yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@-2@@@true@@@false
+hadoop-tools org.apache.hadoop.yarn.sls.nodemanager.TestNMSimulator#testNMSimulator[*] yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@-3@@@true@@@false

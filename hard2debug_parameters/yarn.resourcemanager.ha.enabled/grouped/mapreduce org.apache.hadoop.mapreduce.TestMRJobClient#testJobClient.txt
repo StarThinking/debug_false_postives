@@ -1,0 +1,10 @@
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-2@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-3@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-1@@@true@@@false
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-2@@@true@@@false
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@hadoop:Tool@@@-3@@@true@@@false
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@mapreduce:JobHistoryServer@@@1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@mapreduce:JobHistoryServer@@@1@@@true@@@false
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@false@@@true
+mapreduce org.apache.hadoop.mapreduce.TestMRJobClient#testJobClient yarn.resourcemanager.ha.enabled@@@yarn:ResourceManager@@@1@@@true@@@false
